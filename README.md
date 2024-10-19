@@ -28,7 +28,7 @@
    cd project
    ```
 
-2. **Install dependencies**:
+2. **Install dependencies**
    
 
 3. **Run the training script**:
