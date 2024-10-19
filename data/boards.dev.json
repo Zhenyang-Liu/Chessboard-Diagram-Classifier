@@ -1,0 +1,352 @@
+[
+  {
+    "image": "capablanca/101.jpg",
+    "fen": "2r2rk1/pp4pp/2n1pq2/2bp4/8/2N3PB/PP2PP1P/R2Q1RK1",
+    "board": [
+      "..r..rk.",
+      "pp....pp",
+      "..n.pq..",
+      "..bp....",
+      "........",
+      "..N...PB",
+      "PP..PP.P",
+      "R..Q.RK."
+    ]
+  },
+  {
+    "image": "capablanca/102.jpg",
+    "fen": "2r2rk1/pp4pp/2n1p2q/2bN4/8/6PB/PP2PP1P/R2Q1RK1",
+    "board": [
+      "..r..rk.",
+      "pp....pp",
+      "..n.p..q",
+      "..bN....",
+      "........",
+      "......PB",
+      "PP..PP.P",
+      "R..Q.RK."
+    ]
+  },
+  {
+    "image": "capablanca/103.jpg",
+    "fen": "8/pp1k2pp/2n5/5R2/2B5/3P2P1/Pr3PKP/8",
+    "board": [
+      "........",
+      "pp.k..pp",
+      "..n.....",
+      ".....R..",
+      "..B.....",
+      "...P..P.",
+      "Pr...PKP",
+      "........"
+    ]
+  },
+  {
+    "image": "capablanca/104.jpg",
+    "fen": "8/8/1kn5/3B3R/pp5P/3P2P1/Pr3PK1/8",
+    "board": [
+      "........",
+      "........",
+      ".kn.....",
+      "...B...R",
+      "pp.....P",
+      "...P..P.",
+      "Pr...PK.",
+      "........"
+    ]
+  },
+  {
+    "image": "capablanca/105.jpg",
+    "fen": "r3kn1r/pp2bppp/2p2n2/q3p1Bb/4N3/3BPN1P/PPP1QPP1/R2R2K1",
+    "board": [
+      "r...kn.r",
+      "pp..bppp",
+      "..p..n..",
+      "q...p.Bb",
+      "....N...",
+      "...BPN.P",
+      "PPP.QPP.",
+      "R..R..K."
+    ]
+  },
+  {
+    "image": "capablanca/106.jpg",
+    "fen": "r6r/ppq2pp1/2p1nkp1/4p3/1P2Q3/4PN1P/P1P2PP1/R2R2K1",
+    "board": [
+      "r......r",
+      "ppq..pp.",
+      "..p.nkp.",
+      "....p...",
+      ".P..Q...",
+      "....PN.P",
+      "P.P..PP.",
+      "R..R..K."
+    ]
+  },
+  {
+    "image": "capablanca/107.jpg",
+    "fen": "3n4/ppq2pp1/2p2k2/4p1p1/1PP1Q3/4PN1P/P4PP1/6K1",
+    "board": [
+      "...n....",
+      "ppq..pp.",
+      "..p..k..",
+      "....p.p.",
+      ".PP.Q...",
+      "....PN.P",
+      "P....PP.",
+      "......K."
+    ]
+  },
+  {
+    "image": "capablanca/108.jpg",
+    "fen": "1k1r2r1/pbpn1p1p/1p2pp2/5q2/2PP4/3RQNP1/P1P1BP1P/2KR4",
+    "board": [
+      ".k.r..r.",
+      "pbpn.p.p",
+      ".p..pp..",
+      ".....q..",
+      "..PP....",
+      "...RQNP.",
+      "P.P.BP.P",
+      "..KR...."
+    ]
+  },
+  {
+    "image": "capablanca/109.jpg",
+    "fen": "3rrq2/pk1n1p1p/1pp1pp2/2P5/3P1P2/3RQNP1/P1P4P/2KR4",
+    "board": [
+      "...rrq..",
+      "pk.n.p.p",
+      ".pp.pp..",
+      "..P.....",
+      "...P.P..",
+      "...RQNP.",
+      "P.P....P",
+      "..KR...."
+    ]
+  },
+  {
+    "image": "capablanca/110.jpg",
+    "fen": "k1r1rq2/p4p1p/2p1pp2/N1Pn4/3Q1P2/3R2P1/P1P4P/2KR4",
+    "board": [
+      "k.r.rq..",
+      "p....p.p",
+      "..p.pp..",
+      "N.Pn....",
+      "...Q.P..",
+      "...R..P.",
+      "P.P....P",
+      "..KR...."
+    ]
+  },
+  {
+    "image": "capablanca/111.jpg",
+    "fen": "kr6/p2Pqp1p/2p2p2/2P5/5P2/1N1p2P1/P1r4P/1K1R2Q1",
+    "board": [
+      "kr......",
+      "p..Pqp.p",
+      "..p..p..",
+      "..P.....",
+      ".....P..",
+      ".N.p..P.",
+      "P.r....P",
+      ".K.R..Q."
+    ]
+  },
+  {
+    "image": "capablanca/112.jpg",
+    "fen": "r1b1r1k1/1pp1n1pp/p1pb1p2/5P2/4P3/1NN5/PPP3PP/R1B2RK1",
+    "board": [
+      "r.b.r.k.",
+      ".pp.n.pp",
+      "p.pb.p..",
+      ".....P..",
+      "....P...",
+      ".NN.....",
+      "PPP...PP",
+      "R.B..RK."
+    ]
+  },
+  {
+    "image": "capablanca/113.jpg",
+    "fen": "r1b1r1k1/2p1n1pp/pppb1p2/5P2/4PB2/1NN5/PPP3PP/R4RK1",
+    "board": [
+      "r.b.r.k.",
+      "..p.n.pp",
+      "pppb.p..",
+      ".....P..",
+      "....PB..",
+      ".NN.....",
+      "PPP...PP",
+      "R....RK."
+    ]
+  },
+  {
+    "image": "capablanca/114.jpg",
+    "fen": "4r1k1/1b1rn1pp/ppppNp2/5P2/4P3/2N5/PPP3PP/3R1RK1",
+    "board": [
+      "....r.k.",
+      ".b.rn.pp",
+      "ppppNp..",
+      ".....P..",
+      "....P...",
+      "..N.....",
+      "PPP...PP",
+      "...R.RK."
+    ]
+  },
+  {
+    "image": "capablanca/115.jpg",
+    "fen": "r1b2k1r/pp3pp1/2n1p2p/q3P3/4Q3/2p5/P1P1NPPP/R1B2RK1",
+    "board": [
+      "r.b..k.r",
+      "pp...pp.",
+      "..n.p..p",
+      "q...P...",
+      "....Q...",
+      "..p.....",
+      "P.P.NPPP",
+      "R.B..RK."
+    ]
+  },
+  {
+    "image": "capablanca/116.jpg",
+    "fen": "2r3r1/pp1b1p1k/4p1pp/3nP2P/1q1NQP2/2p4R/P1P2BP1/R5K1",
+    "board": [
+      "..r...r.",
+      "pp.b.p.k",
+      "....p.pp",
+      "...nP..P",
+      ".q.NQP..",
+      "..p....R",
+      "P.P..BP.",
+      "R.....K."
+    ]
+  },
+  {
+    "image": "capablanca/117.jpg",
+    "fen": "2r5/pp1b3k/4pnrp/8/1q1NQP2/2p4R/P1P2BP1/R5K1",
+    "board": [
+      "..r.....",
+      "pp.b...k",
+      "....pnrp",
+      "........",
+      ".q.NQP..",
+      "..p....R",
+      "P.P..BP.",
+      "R.....K."
+    ]
+  },
+  {
+    "image": "capablanca/118.jpg",
+    "fen": "2r5/pp1b4/5nrk/5p2/1Q3P2/2p5/P1P2BP1/R5K1",
+    "board": [
+      "..r.....",
+      "pp.b....",
+      ".....nrk",
+      ".....p..",
+      ".Q...P..",
+      "..p.....",
+      "P.P..BP.",
+      "R.....K."
+    ]
+  },
+  {
+    "image": "capablanca/119.jpg",
+    "fen": "r3r1k1/2p1qppp/p1n1bn2/1pb1p1B1/4P3/2P1NN2/PPB1QPPP/R4RK1",
+    "board": [
+      "r...r.k.",
+      "..p.qppp",
+      "p.n.bn..",
+      ".pb.p.B.",
+      "....P...",
+      "..P.NN..",
+      "PPB.QPPP",
+      "R....RK."
+    ]
+  },
+  {
+    "image": "capablanca/120.jpg",
+    "fen": "rn2rk2/2p2ppQ/p2b1q2/3Pp3/P7/5N2/1PB2PPP/R4RK1",
+    "board": [
+      "rn..rk..",
+      "..p..ppQ",
+      "p..b.q..",
+      "...Pp...",
+      "P.......",
+      ".....N..",
+      ".PB..PPP",
+      "R....RK."
+    ]
+  },
+  {
+    "image": "capablanca/121.jpg",
+    "fen": "r1bq2k1/pppp1ppp/2n5/8/1b2rB2/6Q1/PPP2PPP/2KR1BNR",
+    "board": [
+      "r.bq..k.",
+      "pppp.ppp",
+      "..n.....",
+      "........",
+      ".b..rB..",
+      "......Q.",
+      "PPP..PPP",
+      "..KR.BNR"
+    ]
+  },
+  {
+    "image": "capablanca/122.jpg",
+    "fen": "r1b3k1/ppp2ppp/3p1q2/8/1b1nr3/3BB1QN/PPP2PPP/2KR3R",
+    "board": [
+      "r.b...k.",
+      "ppp..ppp",
+      "...p.q..",
+      "........",
+      ".b.nr...",
+      "...BB.QN",
+      "PPP..PPP",
+      "..KR...R"
+    ]
+  },
+  {
+    "image": "capablanca/123.jpg",
+    "fen": "r5k1/ppp2ppp/3p1q2/6N1/1b4Q1/3Br3/PPP1nPPP/2KR3R",
+    "board": [
+      "r.....k.",
+      "ppp..ppp",
+      "...p.q..",
+      "......N.",
+      ".b....Q.",
+      "...Br...",
+      "PPP.nPPP",
+      "..KR...R"
+    ]
+  },
+  {
+    "image": "capablanca/124.jpg",
+    "fen": "r5k1/pp1q1ppp/2p5/2bp1P2/4Q3/2P5/PP1R2PP/2K1R3",
+    "board": [
+      "r.....k.",
+      "pp.q.ppp",
+      "..p.....",
+      "..bp.P..",
+      "....Q...",
+      "..P.....",
+      "PP.R..PP",
+      "..K.R..."
+    ]
+  },
+  {
+    "image": "capablanca/125.jpg",
+    "fen": "3r4/p4ppk/5b1p/2pp1P2/qp4P1/2P5/PP1R2QP/1K1R4",
+    "board": [
+      "...r....",
+      "p....ppk",
+      ".....b.p",
+      "..pp.P..",
+      "qp....P.",
+      "..P.....",
+      "PP.R..QP",
+      ".K.R...."
+    ]
+  }
+]

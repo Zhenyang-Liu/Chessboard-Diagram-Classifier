@@ -1,0 +1,16 @@
+[
+ {
+    "image": "capablanca/105.jpg",
+    "fen": "r3kn1r/pp2bppp/2p2n2/q3p1Bb/4N3/3BPN1P/PPP1QPP1/R2R2K1",
+    "board": [
+      "r...kn.r",
+      "pp..bppp",
+      "..p..n..",
+      "q...p.Bb",
+      "....N...",
+      "...BPN.P",
+      "PPP.QPP.",
+      "R..R..K."
+    ]
+  }
+]

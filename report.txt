@@ -1,0 +1,70 @@
+# Chessboard Diagram Assignment Report
+
+## Feature Extraction (Max 200 Words)
+
+In the processing of image to feature vector, various noise reducers such as uniform and median filters
+were experimented with. I also even tried combining uniform and Gaussian filters, but they only proved beneficial under
+specific conditions. However, considering general applicability, I decided to drop this approach. So I finally chose
+only Gaussian noise filter. Noticing that each chess piece is centrally located within its square, I cropped the
+peripheral, ineffective areas. This strategy effectively reduced irrelevant feature vectors, and thus minimized noise
+interference. During the PCA model training, I first tried to select for the 10 principal components corresponding to
+the largest eigenvalues, which yielded satisfactory results. But for broader applicability, I chose to compute
+one-dimensional divergences and select the 10 eigenvectors with the highest divergences from the top 20 in the
+descending eigenvalue list. A well-behaved pca model is then obtained. Then I used the pca model to reduce the
+dimensionality of the input data. This approach uses the trained PCA model can retain maximal features within the
+required dimensions and ensure optimal feature preservation for image processing.
+
+## Square Classifier (Max 200 Words)
+
+For the square classifier, I chose to implement the k-Nearest Neighbors (kNN) algorithm. Euclidean distance was selected
+as the metric for determining neighbor proximity, as I observed it performed better in noisy environments than other
+distance metrics. I chose five neighbors to determine labels and used the inverse cube of the distance as the weight for
+soft voting, which can give closer neighbors more influence in the decision. The voting logic was as follows: It will
+first iterate through all the neighbors' labels, then merge the same labels and add their weights, and finally sort them
+in descending order of weight. The label with the highest weighted vote was selected. However, if this label was an
+empty space ('.'), the classifier compared the weight of the next non-empty label. If the difference in voting weight
+between the empty and the non-empty label was less than 12%, the non-empty label was chosen. This strategy was based on
+my observation that the classifier, whether in clear or noisy conditions, could potentially misclassify some pieces as
+empty. This approach reduced the possibility of misclassification when the voting weights for an empty label and a
+specific piece were close.
+
+## Full-board Classification (Max 200 Words)
+
+For the full-board classifier, I first divided the chessboard into squares. While labeling each square using kNN,
+we also recorded the confidence level of each label, along with its neighbors and their distances. The purpose was to
+identify which pieces might need reassessment after applying certain chessboard rules. Also, the confidence levels will
+as a basis for reassessment. Then I applied chess rules to check for pieces in unusual positions. The strategies I used
+included:
+1.Verifying that both sides have a king. If a king was missing, it indicated a misclassification. Observations
+showed queens are often misidentified as kings, so I implemented some logic to deal with this.
+2.Checking if the count of any piece type exceeded its limit. For example, each side should only have one king. Excess
+pieces suggested misclassifications, and the piece with the lower confidence was reassessed.
+3.Pawns should not appear in the first or last rows of the board.
+4.Considering the movement rules of bishops, if both bishops of one side were on the same color square, one was likely
+misclassified.
+Questionable pieces were marked for reassessment by using well-designed logic, attempting to correct errors. These
+corrections are particularly effective in noise mode.
+
+## Performance
+
+My percentage correctness scores (to 1 decimal place) for the development data are as follows.
+
+High quality data:
+
+- Percentage Squares Correct: 99.4%
+- Percentage Boards Correct: 99.4%
+
+Noisy data:
+
+- Percentage Squares Correct: 97.3%
+- Percentage Boards Correct: 98.1%
+
+## Other information (Optional, Max 100 words)
+
+As mentioned above, when I tried to combine Gaussian noise filters and uniform noise filters with the pca model which
+selects the 10 eigenvectors with the largest eigenvalues, the Performance as follows:
+clean data: Square:99.6% Board:99.8%
+noisy data: Square:97.4% Board:97.9%
+
+Declaration: This assignment used part of the code from the lab.
+
